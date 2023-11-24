@@ -721,6 +721,41 @@ footer {
         font-size: 1.2em;
     }
 }
+/*
+    -------------------------------
+    ----- 11. Awards and Honors -----
+    -------------------------------
+*/
+
+#Awards {
+    padding: 50px 15px;
+    border-bottom: 1px solid $border;
+    text-align: left;
+
+    h2 {
+        color: $heading;
+        margin-bottom: 50px;
+    }
+}
+
+.project {
+    position: relative;
+    max-width: 900px;
+    max-height: 500px;
+    margin: 0 auto 50px auto;
+    background: #fff;
+    border-radius: 4px;
+}
+
+
+    p {
+        color: $text;
+        margin: 0 0 15px 0;
+        font-size: 0.9em;
+    }
+}
+
+
 
 /*
     -------------------------------
