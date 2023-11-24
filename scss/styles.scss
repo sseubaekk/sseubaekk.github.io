@@ -728,7 +728,7 @@ footer {
 */
 
 #Awards {
-    padding: 50px 15px;
+    padding: 50px 55px;
     border-bottom: 1px solid $border;
     text-align: left;
 
@@ -738,7 +738,7 @@ footer {
     }
 }
 
-.project {
+.awards {
     position: relative;
     max-width: 900px;
     max-height: 500px;
@@ -750,8 +750,8 @@ footer {
 
     p {
         color: $text;
-        margin: 0 0 15px 0;
-        font-size: 0.9em;
+        margin: 50px 0 15px 0;
+        font-size: 1.0em;
     }
 }
 
