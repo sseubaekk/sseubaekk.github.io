@@ -633,7 +633,7 @@ footer {
 #projects {
     padding: 50px 15px;
     border-bottom: 1px solid $border;
-    text-align: center;
+    text-align: left;
 
     h2 {
         color: $heading;
@@ -645,7 +645,6 @@ footer {
     position: relative;
     max-width: 900px;
     margin: 0 auto 30px auto;
-    overflow: hidden;
     background: #fff;
     border-radius: 4px;
 }
@@ -665,7 +664,7 @@ footer {
         font-size: 1.5em;
         font-weight: 300;
         color: $heading;
-        margin: 0 0 15px 0;
+        margin: 0 0 10px 0;
     }
 
     p {
