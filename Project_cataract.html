@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width">
+  <title>My Portfolio</title>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+  <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/styles.css" rel="stylesheet">
+</head>
+
+
+  <header>
+    <div id="mobile-menu-close">
+      <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
+    </div>
+    <ul id="menu" class="shadow">
+      <li>
+        <a href="#about">About</a>
+      </li>
+      <li>
+        <a href="#experience">Experience</a>
+      </li>
+      <li>
+        <a href="#education">Education</a>
+      </li>
+      <li>
+        <a href="#projects">Projects</a>
+      </li>
+      <li>
+        <a href="#skills">Skills</a>
+      </li>
+      <li>
+        <a href="#contact">Contact</a>
+      </li>
+    </ul>
+  </header>
+
+  <body style="padding: 170px 150px 20px 150px; text-align: justify;">
+  <div id="details">
+    <br>
+      <h2 class="heading"><strong>Cataract Detection Algorithm </strong>
+     to Classify Cataracts Disease Type Based on Features</h2>
+      <h1>[ Research Overview ]</h1>
+ 
+      <div style="font-size: 1.2em;">
+        <p>
+          Vision is one of the important senses, with an annual incidence of visual impairment affecting approximately 2 billion individuals. Among them, cataract accounts for 93 million, a large proportion.
+          Also, the problem that has occurred so far is that it takes time for patients to see an ophthalmologist even if they want to be diagnosed quickly. To help doctors make a definitive diagnosis,
+          this study introduces an image processing technique to differentiate between different types of cataracts.
+
+          In this study, the analysis method used digital image-based image processing technology using MATLAB software.
+          The image processing algorithm consists of several features and aims to classify the posterior cataract and cortical cataract more accurately.
+          The results of the study using the image management method are expected to provide rapid diagnosis to patients by classifying nuclear cataracts, cortical cataracts, and posterior cataracts.
+        </p>
+        <br>
+        <div class="image-container" align="center">
+        <img src="images/threetypes_cataracts.jpg" style="margin-left: 20px; width="500" height="400" >
+        <br>
+        <h3>[ Three types of cataracts ]</h3>
+      </div>
+    
+
+<p></p>
+<br>
+<div id="details">
+  <div class="container">
+    <p>Each person's iris is a different color, but everyone's pupils are the same color. 
+      Because the pupil is circular in shape, it can be easily detected using common circular area detection algorithms, 
+      the most common being the Hue transform. Here it is used to automatically detect distinguishable circular pupils. 
+      The basic method of the powerful cataract detection algorithm proposed in this paper can be described in three steps: 
+      preprocessing, feature extraction, and classification.</p>
+    <div align="center">
+    <div class="table-container" style="margin-top:20px; display:inline-block;">
+        <table border="1">
+                        <thead>
+                <tr>
+                    <th>Step</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1. Preprocessing</td>
+                    <td>
+                        <ul>
+                            <li>RGB image acquisition</li>
+                            <li>Resize the cropped image size to 128*128</li>
+                            <li>Identify area of the pupil</li>
+                            <li>Remove glare and noise</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>2. Feature extraction</td>
+                    <td>
+                        <ul>
+                            <li>
+                                Color quantification and statistical analysis
+                                <ul>
+                                    <li>Find the color histogram</li>
+                                    <li>Calculate the brightness, intensity, uniformity&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;  </li>
+                                    <li>Calculate the standard deviation of the image&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; </li>
+                                </ul>
+                            </li>
+                            <li>
+                                Masking region area
+                                <ul>
+                                    <li>Calculate the change rate of divided four area    </li>
+                                    <li>Calculate the accuracy</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+         </div>
+          </div>
+    <h3>Global features</h3>
+    <p>
+      Researchers distinguish healthy and abnormal eyes based on parameters like color ratio and uniformity.
+       In identifying abnormality, white hues in the lens area indicate nuclear cataracts,
+        classified using central pupil brightness. 
+      Local features refine subdivision for posterior and cortical cataracts.</p>
+    <h3>Local features</h3>
+    <p>
+      The procedure applied to pupil slices, excluding eyebrows or background pixels.
+      Lesion uniformity varies with cataract types, characterized by clustered Gaussian intensity histograms in eye images. 
+      Tails in histograms indicate cataract lesions, detectable by comparing with healthy eye histograms. 
+      An average filter enhances mode estimation for more accurate lesion detection.
+ 
+    </p>
+    </div>   
+</div>
+</div>
+</div>
+</body>
+        
+</html>
