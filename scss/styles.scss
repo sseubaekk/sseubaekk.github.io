@@ -1038,3 +1038,28 @@ footer {
     }
 
 }
+    ---------------------------
+    ----- 15. Project Details Styles -----
+    ---------------------------
+*/
+
+#details {
+    padding: 50px 15px;
+ h1 {
+    font-size: 1.5em;
+    }
+
+    h2 {
+    color: $heading;
+    }
+ h3 {
+        font-weight: 500;
+        margin: 0 0 15px 0;
+        color: $heading;
+    }
+
+    p {
+        color: $text;
+        margin: 0;
+    }
+}
