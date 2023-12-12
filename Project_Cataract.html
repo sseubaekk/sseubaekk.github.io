@@ -67,19 +67,53 @@
   </div>
   <div class="container">
     <div class="table-container">
-      <table>
-        <caption><b>Proposed Algorithm</b></caption>
-        <thead>
-          <tr>
-            <th>Step</th>
-            <th>Description</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>1. Preprocessing</td>
-            <td>
-              <ul>
-                <li>RGB image acquisition</li>
-                <li>Resize the cropped image size to 128*128</li>
-                <li>
+        <table>
+            <caption>Proposed Algorithm</caption>
+            <thead>
+                <tr>
+                    <th>Step</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1. Preprocessing</td>
+                    <td>
+                        <ul>
+                            <li>RGB image acquisition</li>
+                            <li>Resize the cropped image size to 128*128</li>
+                            <li>Identify area of the pupil</li>
+                            <li>Remove glare and noise</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>2. Feature extraction</td>
+                    <td>
+                        <ul>
+                            <li>
+                                Color quantification and statistical analysis
+                                <ul>
+                                    <li>Find the color histogram</li>
+                                    <li>Calculate the brightness, intensity, uniformity</li>
+                                    <li>Calculate the standard deviation of the image</li>
+                                </ul>
+                            </li>
+                            <li>
+                                Masking region area
+                                <ul>
+                                    <li>Calculate the change rate of divided four area</li>
+                                    <li>Calculate the accuracy</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        </div>
+        </div>
+        </body>
+        </html>
+        
